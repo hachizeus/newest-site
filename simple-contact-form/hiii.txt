@@ -1,0 +1,1 @@
+npm i react-native-screens npm i react-native-screens npm i react-native npm i expo-status-bar npm i expo-linear-gradient 
