@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-social.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet"
+        href=" https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css " />
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-nRkg4f9Qo0C5smAMKHaTUJEe7b3uiB07kFbj7NcPp8+jgRljDD1rIS2gwLR6+yjr6FIpVMd5o7EsJ7ldx1+PpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body style="background-color: black;">
+
+
+    <div class="container-fluid">
+        <div>
+            <ul class="nav nav-tabs justify-content-end p-4 ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 ">
+        <div class="row">
+            <div class="col-sm-6 col-md-6  order-sm-1 order-md-1">
+                <h1 class="multicolor-text">Hello,I am</h1>
+                <h2 id="typewriter-text" class="typewriter"></h2> <br><br><br>
+                <p style="color: white; font-size: 15px;">Hello.welcome.My name is Victor Gathecha,i am web and app
+                    Developer located in Nairobi,
+                    <br> Kenya and I work internationally Online,
+                </p><br>
+                <button id="downloadBtn" class="bn29">Download cv</button> <br> <br>
+                <button class="bn29">Hire me</button>
+                <img src="image/cv.png" id="downloadImage" style="display: none;">
+            </div>
+
+            <div class="col-sm-2 col-md-6  order-sm-2 order-md-2">
+                <img src="image/me.png" style="width: 600px; height: 600px; margin-top: 40px; ;"
+                    class="img-thumbnail rounded-circle justify-content-center float-center " alt="...">
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 order-sm-1 order-md-2">
+                <img src="image/mokeup1.png" alt="Mockup 1" class="img-fluid">
+            </div>
+            <video class="col-sm-3 col-md-3 order-sm-2 order-md-2"  autoplay loop muted>
+                <source src="image/mokeup2.mp4" type="video/mp4">
+            </video>
+            <div  class="col-sm-6 col-md-6  order-sm-2 order-md-2 ">
+                <h2 style="font-weight: 800; color: antiquewhite;">About me</h2>
+                <p id="About" style="color: white;">Hey there, I'm Victor Gathecha, and I'm all about tech and pushing boundaries.
+                    Currently, I'm studying Information Science at the University of Nairobi, but
+                    that's just the start of my journey. I wear many hats - I'm a web designer who
+                    crafts visually stunning and user-friendly websites, a skilled mobile repairer
+                    ensuring your devices stay in top shape, and an app developer constantly
+                    innovating solutions to real-world problems. What drives me? Ambition and
+                    hard work. I thrive in challenging environments, always hungry for opportunities
+                    to learn and grow. When you work with me, you're not just getting a service provider
+                    - you're getting a dedicated partner committed to bringing your digital dreams to life.
+                    Let's collaborate and make some magic happen!</p>
+                <div  class="dropdown-container">
+                    <select id="dropdown1" style="background-color: black; color: white; border: black;"
+                        class="dropdown">
+                        <option>Skills</option>
+                        <option value="option1">Web Developing</option>
+                        <option value="option2">App Developing</option>
+                        <option value="option3">Mobile Repair</option>
+                    </select>
+                    <select style="background-color: black; color: white; border: black;" id="dropdown2"
+                        class="dropdown">
+                        <option>Education</option>
+                        <option value="option1">University Of Nairobi</option>
+                        <option value="option2">Inceptor</option>
+                    </select>
+                    <select style="background-color: black; color: white; border: black;" id="dropdown3"
+                        class="dropdown">
+                        <option>Certification</option>
+                        <option value="option1">Frontend Development</option>
+                        <option value="option2">Backend Development</option>
+                    </select>
+                    <div class="blue-line"></div>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+
+    <div class="container-fluid">
+        <h2 style="font-size: 50px; font-weight: bolder;" class="text-center my-4">My Projects</h2>
+        <div id="Projects" class="row">
+            <div class="col-md-4 mb-4">
+                <video class="w-100" autoplay loop muted>
+                    <source src="image/vida3.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-4 mb-4">
+                <video class="w-100" autoplay loop muted>
+                    <source src="image/vida2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-4 mb-4">
+                <video class="w-100" autoplay loop muted>
+                    <source src="image/vida.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-4 mb-4">
+                <video class="w-100" autoplay loop muted>
+                    <source src="image/eeh.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-4 mb-4">
+                <video class="w-100  " autoplay loop muted>
+                    <source src="image/arsha1 record.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-4 mb-4">
+                <video class="w-100" autoplay loop muted>
+                    <source src="image/vida4.mp4" type="video/mp4"> <!-- Replace with your sixth video -->
+                </video>
+            </div>
+        </div>
+    </div>
+    
+ 
+            <div class="container-fluid mt-5">
+                <div class="row">
+                    <div class="contact-info col-md-6">
+                        <h4 id="Contact">Contact Info</h4>
+                        <p><strong>Location:</strong> Nairobi, Kenya</p>
+                        <p><strong>Email Address:</strong> <a
+                                href="mailto:victorgathecha@gmail.com">victorgathecha@gmail.com</a></p>
+                        <p><strong>Phone Number:</strong> <a href="tel:+254759001048">+254 759 001 048</a></p>
+                    </div>
+                    <div class="contact-form col-md-6">
+                        <h2>Get in Touch</h2>
+                        <form id="contactForm" onsubmit="sendWhatsAppMessage(); return false;">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <footer class="bg-dark text-white text-center py-3">
+                <div class="container">
+                    <p class="mb-0">© 2024 ELITJOHNS. All Rights Reserved. | Developed by Victor Gathecha</p>
+                </div>
+            </footer>
+
+
+            <script>
+                function sendWhatsAppMessage() {
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const message = document.getElementById('message').value;
+
+                    const whatsappNumber = '0759001048';
+                    const whatsappMessage = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+                    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+                    window.open(whatsappURL, '_blank');
+                }
+            </script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+            <script src="assets/js/jquery.slim.min.js"></script>
+            <script src="assets/js/popper.min.js"></script>
+            <script src="assets/js/bootstrap.min.js"></script>
+            <script src="assets/js/fontawesome.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+
+            <script src="https://use.fontawesome.com/ee1c3da296.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+            <script>
+
+                const texts = [
+                    "Victor",
+                    "a Web Developer",
+                    "an App Developer",
+                    "a Mobile Repairer"
+                ];
+
+                let textIndex = 0;
+                const typewriterText = document.getElementById('typewriter-text');
+
+                function typeWriterEffect() {
+                    // Remove the typing-animation class to reset the animation
+                    typewriterText.classList.remove('typing-animation');
+
+                    // Change the text content
+                    typewriterText.textContent = texts[textIndex];
+
+                    // Trigger reflow to restart the animation
+                    void typewriterText.offsetWidth;
+
+                    // Add the typing-animation class back to restart the animation
+                    typewriterText.classList.add('typing-animation');
+
+                    // Update index for next text
+                    textIndex = (textIndex + 1) % texts.length; // Loop through the texts
+                }
+
+                // Initial call and repeat every 6 seconds (4s typing animation + 2s pause)
+                typeWriterEffect();
+                setInterval(typeWriterEffect, 3000);
+            </script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+            <script>
+                document.getElementById('downloadBtn').addEventListener('click', function () {
+                    // Assuming your CV file is named 'cv.pdf' and located in the same directory
+                    var cvUrl = 'image/cv.png';
+
+                    // Create a link element
+                    var link = document.createElement('a');
+
+                    // Set the href attribute of the link to the URL of the CV file
+                    link.href = cvUrl;
+
+                    // Set the download attribute to specify the filename
+                    link.download = 'image/cv.png'; // Change 'Victor_Gathecha_CV.pdf' to whatever you want the downloaded file to be named
+
+                    // Append the link to the document body
+                    document.body.appendChild(link);
+
+                    // Programmatically click the link to start the download
+                    link.click();
+
+                    // Remove the link from the document body
+                    document.body.removeChild(link);
+                });
+            </script>
+</body>
+
+<style>
+    h2,
+    h4 {
+        font-weight: bolder;
+        color: wheat;
+    }
+
+    .contact-info p {
+        color: gray;
+    }
+
+    .contact-form label {
+        color: white;
+        /* Change text color to white */
+    }
+
+
+    /* CSS for the typewriter effect */
+    .typewriter {
+        font-family: monospace;
+        display: inline-block;
+        border-right: 2px solid black;
+        /* Simulates the blinking cursor */
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .typing-animation {
+        animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 100%;
+        }
+    }
+
+    @keyframes blink-caret {
+        50% {
+            border-color: transparent;
+        }
+    }
+
+    .multicolor-text {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 100px;
+        background: linear-gradient(to left,
+
+                blue,
+                blue,
+                blue,
+                red);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .typewriter {
+        color: white;
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .bn29 {
+        border: none;
+        padding: 0.8em 2.5em;
+        outline: none;
+        color: white;
+        font-style: 1.2em;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+        background: none;
+        text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+    }
+
+    .bn29:before,
+    .bn29:after {
+        position: absolute;
+        top: 50%;
+        justify-content: center;
+        align-items: center;
+        left: 150px;
+        border-radius: 10em;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        width: 300px;
+        height: 105%;
+        content: "";
+        z-index: -2;
+        background-size: 400% 400%;
+        background: linear-gradient(60deg,
+                #f79533,
+                #f37055,
+                #ef4e7b,
+                #a166ab,
+                #5073b8,
+                #1098ad,
+                #07b39b,
+                #6fba82);
+    }
+
+    .bn29:before {
+        -webkit-filter: blur(7px);
+        filter: blur(7px);
+        -webkit-transition: all 0.25s ease;
+        transition: all 0.25s ease;
+        -webkit-animation: pulse 10s infinite ease;
+        animation: pulse 10s infinite ease;
+    }
+
+    .bn29:after {
+        -webkit-filter: blur(0.3px);
+        filter: blur(0.3px);
+    }
+
+    .bn29:hover:before {
+        width: 115%;
+        height: 115%;
+    }
+
+    .nav-link {
+        padding: 10px;
+        font-size: 20px;
+        margin-right: 3px;
+    }
+</style>
+
+</html>
